@@ -1,0 +1,198 @@
+[{
+        "id": "1",
+        "Categoria": "Entradas",
+        "Producto": "Spring Roll x2 ",
+        "Tipo": null,
+        "Descripcion": "Rollitos fritos rellenos de vegetales con carne o pollo",
+        "Precio": "7000"
+    },
+    {
+        "id": "2",
+        "Categoria": "Entradas",
+        "Producto": "Tiradito blanco peruano",
+        "Tipo": null,
+        "Descripcion": "Laminas de pescado blanco con especies bañado en limon",
+        "Opciones": null,
+        "Precio": "12000"
+    },
+    {
+        "id": "3",
+        "Categoria": "Entradas",
+        "Producto": "Ceviche de pescado",
+        "Tipo": null,
+        "Descripcion": "Pescado de temporada leche de tigre y maiz cuzco",
+        "Opciones":null,
+        "Precio": "15000"
+    },
+    {
+        "id": "4",
+        "Categoria": "Fuertes",
+        "Producto": "Arroz Yakimeshi",
+        "Tipo": null,
+        "Descripcion": "Arroz japonés hecho con la técnica teppanyaki con raíz, zanahoria, arveja, cebollín, huevo, ajonjolí, salsa soya y teriyaki artesanal con la proteína que escojas.",
+        "Opciones": [
+            {"Tipo": "Personal", "Proteina": "Pollo", "Precio": "12000"},
+            {"Tipo": "Personal", "Proteina": "Carne", "Precio": "13000"},
+            {"Tipo": "Personal", "Proteina": "Camarón", "Precio": "15000"},
+            {"Tipo": "Personal", "Proteina": "Mixto", "Precio": "16000"},
+            {"Tipo": "Familiar", "Proteina": "Pollo", "Precio": "23000"},
+            {"Tipo": "Familiar", "Proteina": "Carne", "Precio": "24000"},
+            {"Tipo": "Familiar", "Proteina": "Camarón", "Precio": "26000"},
+            {"Tipo": "Familiar", "Proteina": "Mixto", "Precio": "27000"}
+        ],
+        "Precio": null
+    },
+    {
+        "id": "5",
+        "Categoria": "Fuertes",
+        "Producto": "Yakisoba (verdura con pasta)",
+        "Tipo": null,
+        "Descripcion": "Zukini verde y amarillo, raíz, zanahoria, cebolla roja, repollo, pasta de arroz, salsa soya y tonkatsu artesanal con la proteína a elección.",
+        "Opciones": [
+            {"Tipo": "Personal", "Proteina": "Pollo", "Precio": "11000"},
+            {"Tipo": "Personal", "Proteina": "Carne", "Precio": "12000"},
+            {"Tipo": "Personal", "Proteina": "Camarón", "Precio": "14000"},
+            {"Tipo": "Personal", "Proteina": "Mixto", "Precio": "15000"},
+            {"Tipo": "Familiar", "Proteina": "Pollo", "Precio": "21000"},
+            {"Tipo": "Familiar", "Proteina": "Carne", "Precio": "22000"},
+            {"Tipo": "Familiar", "Proteina": "Camarón", "Precio": "24000"},
+            {"Tipo": "Familiar", "Proteina": "Mixto", "Precio": "25000"}
+        ],
+        "Precio": null
+    },
+    {
+        "id": "6",
+        "Categoria": "Sushi",
+        "Tipo": "Temporada",
+        "Producto": "Roll Celeste",
+        "Descripcion": "Banano tempura con aguacate, queso crema y salsa de maracuyá, acompañado de cubitos de plátano maduro y salsa ahumada de anguila dulce.",
+        "Opciones": "null",
+        "Precio": "15000"
+    },
+    {
+        "id": "7",
+        "Categoria": "Sushi",
+        "Tipo": "Temporada",
+        "Producto": "Salmon skin",
+        "Descripcion": "Piel de salmón crocante, queso crema y aguacate. cubierto por semillas de ajonjolí mixto.",
+        "Opciones": "null",
+        "Precio": "15000"
+    },
+    {
+        "id": "8",
+        "Categoria": "Sushi",
+        "Tipo": "Tradicional",
+        "Producto": "Philadelphia",
+        "Descripcion": "Salmón, queso crema y aguacate cubierto por semillas de ajonjolí.",
+        "Opciones": "null",
+        "Precio": "18000"
+    },
+    {
+        "id": "9",
+        "Categoria": "Sushi",
+        "Tipo": "Tradicional",
+        "Producto": "Ojo de tigre",
+        "Descripcion": "Atún, salmón, palmito, aguacate y masago. con cobertura de semillas de ajonjolí negro y topping de salsa dinamita.",
+        "Opciones": "null",
+        "Precio": "18000"
+    },
+    {
+        "id": "10",
+        "Categoria": "Sushi",
+        "Tipo": "Tradicional",
+        "Producto": "Dragón roll",
+        "Descripcion": "Langostino apanado, queso crema y aguacate. cubierto por salmón con topping de salsa anguila y maracuyá.",
+        "Opciones": "null",
+        "Precio": "18000"
+    },
+    {
+        "id": "11",
+        "Categoria": "Sushi",
+        "Tipo": "Tradicional",
+        "Producto": "Ebi tempura",
+        "Descripcion": "Langostino apanado, mayonesa japonesa y aguacate. con topping de mayonesa japonesa",
+        "Opciones": "null",
+        "Precio": "18000"
+    },
+    {
+        "id": "12",
+        "Categoria": "Sushi",
+        "Tipo": "Tradicional",
+        "Producto": "Rainbow",
+        "Descripcion": "kanikama, aguacate y salsa dinamita. cubierto de salmón, atún, aguacate y topping de sriracha (picante) y aceite de ajonjolí.",
+        "Opciones": "null",
+        "Precio": "18000"
+    },
+    {
+        "id": "13",
+        "Categoria": "Sushi",
+        "Tipo": "Tradicional",
+        "Producto": "Spicy tuna",
+        "Descripcion": "Atún fresco, aguacate y salsa siracha (picante).",
+        "Opciones": "null",
+        "Precio": "18000"
+    },
+    {
+        "id": "14",
+        "Categoria": "Sushi",
+        "Tipo": "Especiales",
+        "Producto": "Yaki roll",
+        "Descripcion": "Salmón apanado, queso crema y aguacate. cubierto de plátano maduro, queso doble crema con topping de salsa de anguila y maracuyá.",
+        "Opciones": "null",
+        "Precio": "18000"
+    },
+    {
+        "id": "15",
+        "Categoria": "Sushi",
+        "Tipo": "Especiales",
+        "Producto": "Acevichado",
+        "Descripcion": "Aguacate, camarón y kanikama marinados en zumo de limón, cilantro, cebolla roja, pimienta y sal. cubierto de maíz cusco.",
+        "Opciones": "null",
+        "Precio": "22000"
+    },
+    {
+        "id": "16",
+        "Categoria": "Sushi",
+        "Tipo": "Especiales",
+        "Producto": "Tokio roll",
+        "Descripcion": "Langostino apanado con ralladura de coco, queso crema y aguacate, con topping de kanikama salsa dinamita y anguila.",
+        "Opciones": "null",
+        "Precio": "22000"
+    },
+    {
+        "id": "17",
+        "Categoria": "Sushi",
+        "Tipo": "Especiales",
+        "Producto": "Roll san",
+        "Descripcion": "Palmito apanado, queso crema y aguacate. con topping de salsa dinamita con camarón apanado y agridulce.",
+        "Opciones": "null",
+        "Precio": "22000"
+    },
+    {
+        "id": "18",
+        "Categoria": "Sushi",
+        "Tipo": "Especiales",
+        "Producto": "Samurái roll",
+        "Descripcion": "Salmón, palmito apanado y queso crema. cubierto con aguacate y salsa de anguila.",
+        "Opciones": "null",
+        "Precio": "22000"
+    },
+    {
+        "id": "19",
+        "Categoria": "Sushi",
+        "Tipo": "Especiales",
+        "Producto": "Ojo de dragón",
+        "Descripcion": "Salmón, atún, kanikama y aguacate. cubierto con salmón salsa anguila y maracuyá.",
+        "Opciones": "null",
+        "Precio": "22000"
+    },
+    {
+        "id": "20",
+        "Categoria": "Sushi",
+        "Tipo": "Especiales",
+        "Producto": "Ebi especial",
+        "Descripcion": "Camarón y palmito apanado con mayonesa japonesa y anguila. cubierto de aguacate y ajonjolí negro.  ",
+        "Opciones": "null",
+        "Precio": "22000"
+    }
+]
