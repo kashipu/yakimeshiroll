@@ -1,6 +1,9 @@
 let entradas = document.getElementById("entradas")
-let fuertes = document.getElementById("fuertes")
 let sushi = document.getElementById("sushi")
+let arroz = document.getElementById("arroz")
+let arrozPrecios = document.getElementById("arroz-precios")
+let pasta = document.getElementById("pasta")
+let pastaPrecios = document.getElementById("pasta-precios")
 
 fetch("../js/entradas.json")
 .then(res => res.json())
@@ -12,16 +15,7 @@ fetch("../js/entradas.json")
             case 'Entradas':
                 entradas.innerHTML += `
                 <div class="card-item">
-                    <h2>${data[i].Producto}</h2>
-                    <p>${data[i].Descripcion}</p>
-                    <p>${data[i].Precio}</p>
-                </div>
-                `
-                break
-            case 'Fuertes':
-                fuertes.innerHTML += `
-                <div class="card-item">
-                    <h2>${data[i].Producto}</h2>
+                    <h3>${data[i].Producto}</h3>
                     <p>${data[i].Descripcion}</p>
                     <p>${data[i].Precio}</p>
                 </div>
@@ -30,11 +24,56 @@ fetch("../js/entradas.json")
             case 'Sushi':
                 sushi.innerHTML += `
                 <div class="card-item">
-                    <h2>${data[i].Producto}</h2>
+                    <h3>${data[i].Producto}</h3>
                     <p>${data[i].Descripcion}</p>
                     <p>${data[i].Precio}</p>
                 </div>    
                 `
+                break
+        }
+
+
+        switch (data[i].Producto) {
+            case 'Arroz Yakimeshi':
+                if(i = 3) {
+                arroz.innerHTML += `
+                <div class="card-item">
+                    <h3>${data[3].Producto}</h3>
+                    <p>${data[3].Descripcion}</p>
+                </div>    
+                `
+                for (let j = 0; j < 4; j++) {
+                        const personal = data[3].Personal[j];
+                        const familiar = data[3].Familiar[j];
+                        arrozPrecios.innerHTML += `
+                        <tr>
+                            <th>${personal.Proteina}</th>
+                            <td>${personal.Precio}</td>
+                            <td>${familiar.Precio}</td>
+                        </tr>   
+                    `
+                    }
+                }
+                if(i = 4) {
+                    pasta.innerHTML += `
+                    <div class="card-item">
+                        <h3>${data[4].Producto}</h3>
+                        <p>${data[4].Descripcion}</p>
+                    </div>    
+                `
+                for (let j = 0; j < 4; j++) {
+                    const personal = data[4].Personal[j];
+                    const familiar = data[4].Familiar[j];
+                    pastaPrecios.innerHTML += `
+                    <tr>
+                        <th>${personal.Proteina}</th>
+                        <td>${personal.Precio}</td>
+                        <td>${familiar.Precio}</td>
+                    </tr>   
+                `
+                }
+                }
+            break            
         }
         i++
     }

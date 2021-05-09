@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,45 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Yakimeshi Roll</title>
 </head>
+
 <body>
-    <h2>Entradas</h2>
-    <div class="entradas" id="entradas"></div>
-    <h2>Fuertes</h2>
-    <div class="fuertes" id="fuertes"></div>
-    <h2>Sushi</h2>
-    <div id="sushi" class="sushi"></div>
+    <h1>Yakimeshi Roll</h1>
+    <div class="container-items">
+        <div class="entradas" id="entradas">
+            <h2>Entradas</h2>
+        </div>
+        <div class="platos-fuertes">
+            <h2>Platos Fuertes</h2>
+            <div id="arroz" class="descripciones"></div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Proteina</th>
+                        <th scope="col">Personal</th>
+                        <th scope="col">Familiar</th>
+                    </tr>
+                </thead>
+                <tbody id="arroz-precios">
+                </tbody>
+            </table>
+            <div id="pasta" class="descripciones"></div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Proteina</th>
+                        <th scope="col">Personal</th>
+                        <th scope="col">Familiar</th>
+                    </tr>
+                </thead>
+                <tbody id="pasta-precios">
+                </tbody>
+            </table>
+        </div>
+        <div id="sushi" class="sushi">
+            <h2>Sushi</h2>
+        </div>
+    </div>
     <script src="js/main.js"></script>
 </body>
+
 </html>

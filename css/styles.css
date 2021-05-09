@@ -2,6 +2,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.container-items {
+    border: 1px solid purple;
+}
+
 .entradas {
     border: 1px solid red;
 }
@@ -11,4 +15,14 @@ body {
 
 .sushi {
     border: 1px solid blue;
+}
+
+.table {
+    width: 100%;
+    text-align: left;
+    border: 1px solid black;
+}
+
+.table tr, th, td {
+    border: 1px solid black;
 }

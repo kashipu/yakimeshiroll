@@ -30,33 +30,37 @@
         "Producto": "Arroz Yakimeshi",
         "Tipo": null,
         "Descripcion": "Arroz japonés hecho con la técnica teppanyaki con raíz, zanahoria, arveja, cebollín, huevo, ajonjolí, salsa soya y teriyaki artesanal con la proteína que escojas.",
-        "Opciones": [
-            {"Tipo": "Personal", "Proteina": "Pollo", "Precio": "12000"},
-            {"Tipo": "Personal", "Proteina": "Carne", "Precio": "13000"},
-            {"Tipo": "Personal", "Proteina": "Camarón", "Precio": "15000"},
-            {"Tipo": "Personal", "Proteina": "Mixto", "Precio": "16000"},
-            {"Tipo": "Familiar", "Proteina": "Pollo", "Precio": "23000"},
-            {"Tipo": "Familiar", "Proteina": "Carne", "Precio": "24000"},
-            {"Tipo": "Familiar", "Proteina": "Camarón", "Precio": "26000"},
-            {"Tipo": "Familiar", "Proteina": "Mixto", "Precio": "27000"}
+        "Personal": [
+            {"Proteina": "Pollo", "Precio": "$ 12.000"},
+            {"Proteina": "Carne", "Precio": "$ 13.000"},
+            {"Proteina": "Camarón", "Precio": "$ 15.000"},
+            {"Proteina": "Mixto", "Precio": "$ 16.000"}
+        ],
+        "Familiar":[
+            {"Proteina": "Pollo", "Precio": "$ 23.000"},
+            {"Proteina": "Carne", "Precio": "$ 24.000"},
+            {"Proteina": "Camarón", "Precio": "$ 26.000"},
+            {"Proteina": "Mixto", "Precio": "$ 27.000"}
         ],
         "Precio": null
     },
     {
         "id": "5",
         "Categoria": "Fuertes",
-        "Producto": "Yakisoba (verdura con pasta)",
+        "Producto": "Yakisoba verdura con pasta",
         "Tipo": null,
         "Descripcion": "Zukini verde y amarillo, raíz, zanahoria, cebolla roja, repollo, pasta de arroz, salsa soya y tonkatsu artesanal con la proteína a elección.",
-        "Opciones": [
-            {"Tipo": "Personal", "Proteina": "Pollo", "Precio": "11000"},
-            {"Tipo": "Personal", "Proteina": "Carne", "Precio": "12000"},
-            {"Tipo": "Personal", "Proteina": "Camarón", "Precio": "14000"},
-            {"Tipo": "Personal", "Proteina": "Mixto", "Precio": "15000"},
-            {"Tipo": "Familiar", "Proteina": "Pollo", "Precio": "21000"},
-            {"Tipo": "Familiar", "Proteina": "Carne", "Precio": "22000"},
-            {"Tipo": "Familiar", "Proteina": "Camarón", "Precio": "24000"},
-            {"Tipo": "Familiar", "Proteina": "Mixto", "Precio": "25000"}
+        "Personal": [
+            {"Proteina": "Pollo", "Precio": "$ 11.000"},
+            {"Proteina": "Carne", "Precio": "$ 12.000"},
+            {"Proteina": "Camarón", "Precio": "$ 14.000"},
+            {"Proteina": "Mixto", "Precio": "$ 15.000"}
+        ],
+        "Familiar":[
+            {"Proteina": "Pollo", "Precio": "$ 21.000"},
+            {"Proteina": "Carne", "Precio": "$ 22.000"},
+            {"Proteina": "Camarón", "Precio": "$ 24.000"},
+            {"Proteina": "Mixto", "Precio": "$ 25.000"}
         ],
         "Precio": null
     },
