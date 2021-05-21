@@ -15,9 +15,9 @@ fetch("../js/entradas.json")
             case 'Entradas':
                 entradas.innerHTML += `
                 <div class="card-item">
-                    <h3>${data[i].Producto}</h3>
+                    <h3 class="item-title">${data[i].Producto}</h3>
                     <p class="item-description">${data[i].Descripcion}</p>
-                    <p class="item-price">${data[i].Precio}</p>
+                    <p class="item-price">${ "$" + " " + new Intl.NumberFormat('de-DE').format(data[i].Precio)}</p>
                 </div>
                 `
                 break
@@ -38,8 +38,8 @@ fetch("../js/entradas.json")
                 if(i = 3) {
                 arroz.innerHTML += `
                 <div class="card-item">
-                    <h3>${data[3].Producto}</h3>
-                    <p>${data[3].Descripcion}</p>
+                    <h3 class="item-title">${data[3].Producto}</h3>
+                    <p class="item-description">${data[3].Descripcion}</p>
                 </div>    
                 `
                 for (let j = 0; j < 4; j++) {
@@ -57,8 +57,8 @@ fetch("../js/entradas.json")
                 if(i = 4) {
                     pasta.innerHTML += `
                     <div class="card-item">
-                        <h3>${data[4].Producto}</h3>
-                        <p>${data[4].Descripcion}</p>
+                        <h3 class="item-title">${data[4].Producto}</h3>
+                        <p class="item-description">${data[4].Descripcion}</p>
                     </div>    
                 `
                 for (let j = 0; j < 4; j++) {

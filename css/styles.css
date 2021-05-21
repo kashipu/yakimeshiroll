@@ -5,9 +5,10 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url('/images/fondo.jpg');
     font-family: 'Raleway', sans-serif;
+    line-height: 1.7;
+    font-size: 18px;
 }
 
 .logo-section {
@@ -23,32 +24,38 @@ body {
 }
 
 .container-items {
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 auto;
     padding: .8rem;
 }
 
-.entradas h2 {
-    padding: 0;
-}
-
 .title-box {
     background-color: red;
-    padding: 10px 15px;
+    padding: 2px 15px;
     color: white;
     border-radius: 15px;
     margin-bottom: 1rem;
 }
 
 .card-item {
-    border: 1px solid red;
     margin: 1.5rem .5rem;
 }
 
-.card-item {}
+.item-title {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: .8rem;
+}
 
-.card-item h3 {
-    border: 1px solid red;
+
+.item-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.item-price {
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .fuertes {
@@ -65,6 +72,29 @@ body {
     border: 1px solid black;
 }
 
-.table tr, th, td {
-    border: 1px solid black;
+.table-box {
+    max-width: 60%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #959595;
+    text-align: left;
+    padding: 6px;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .container-items {
+        max-width: 95%;
+        margin: 0 auto;
+        padding: .8rem;
+    }
+    .table-box {
+        max-width: 95%;
+    }
 }
