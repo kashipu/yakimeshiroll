@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap" rel="stylesheet">
     <title>Yakimeshi Roll</title>
 </head>
@@ -16,12 +15,27 @@
         <img class="logo-image" src="/images/SVG/logo.svg" alt="">
     </section>
     <div class="container-items">
-        <div class="entradas" id="entradas">
+        <a id="top-button" onclick="topFunction()" class="top-button"><img src="/images/up-arrow.svg" alt="" srcset=""></a>
+        <nav class="nav">
+            <ul class="nav-group">
+                <li class="group-item"><a href="#entradas">Entradas</a></li>
+                <li class="group-item"><a href="#fuertes">Platos Fuertes</a></li>
+                <li class="group-item"><a href="#ramen">Ramen</a></li>
+                <li class="group-item"><a href="#sushi">Sushi </a></li>
+                <li class="group-item"><a href="#combos">Combos </a></li>
+                <li class="group-item"><a href="#adiciones">Adiciones </a></li>
+                <li class="group-item"><a href="#acompanamientos">Acompañamientos </a></li>
+                <li class="group-item"><a href="#postres">Postres </a></li>
+                <li class="group-item"><a href="#bebidas">Bebidas</a></li>
+                <li class="group-item"><a href="#ofertas">Ofertas</a></li>
+            </ul>
+        </nav>
+        <section class="entradas" id="entradas">
             <div class="title-box">
                 <h2>Entradas</h2>
             </div>
-        </div>
-        <div class="platos-fuertes">
+        </section>
+        <section id="fuertes" class="platos-fuertes">
             <div class="title-box">
                 <h2>Platos Fuertes</h2>
             </div>
@@ -53,12 +67,55 @@
                     </tbody>
                 </table>
             </div>
-        </div>
-        <div id="sushi" class="sushi">
+        </section>
+        <section class="ramen">
+            <div class="title-box">
+                <h2>Ramen</h2>
+            </div>
+            <section id="ramen" class="descripciones"></section>
+            <div class="table-box">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Proteina</th>
+                            <th scope="col">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ramen-precios">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="sushi" class="sushi">
             <div class="title-box">
                 <h2>Sushi</h2>
             </div>
-        </div>
+        </section>
+        <section id="combos" class="combos">
+            <div class="title-box">
+                <h2>Combos</h2>
+            </div>
+        </section>
+        <section id="adiciones" class="adiciones">
+            <div class="title-box">
+                <h2>Adiciones</h2>
+            </div>
+        </section>
+        <section id="acompanamientos" class="acompanamientos">
+            <div class="title-box">
+                <h2>Acompañamientos</h2>
+            </div>
+        </section>
+        <section id="postres" class="postres">
+            <div class="title-box">
+                <h2>Postres</h2>
+            </div>
+        </section>
+        <section id="bebidas" class="bebidas">
+            <div class="title-box">
+                <h2>Bebidas</h2>
+            </div>
+        </section>
     </div>
     <script src="js/main.js"></script>
 </body>

@@ -11,6 +11,40 @@ body {
     font-size: 18px;
 }
 
+.top-button {
+    width: 30px;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    cursor: pointer;
+}
+
+
+
+.nav {
+    margin-bottom: 50px;
+}
+
+.nav-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.group-item {
+    list-style: none;
+    background-color: red;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.group-item  a{
+    list-style: none;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 .logo-section {
     display: flex;
     justify-content: center;
@@ -35,6 +69,7 @@ body {
     color: white;
     border-radius: 15px;
     margin-bottom: 1rem;
+    font-size: 1rem;
 }
 
 .card-item {
@@ -58,12 +93,8 @@ body {
     font-weight: 600;
 }
 
-.fuertes {
-    border: 1px solid green;
-}
-
-.sushi {
-    border: 1px solid blue;
+.platos-fuertes, .ramen {
+    margin-bottom: 3rem;
 }
 
 .table {
@@ -88,7 +119,7 @@ td, th {
     
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .container-items {
         max-width: 95%;
         margin: 0 auto;

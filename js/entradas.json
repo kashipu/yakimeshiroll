@@ -198,5 +198,173 @@
         "Descripcion": "Camarón y palmito apanado con mayonesa japonesa y anguila. cubierto de aguacate y ajonjolí negro.  ",
         "Opciones": "null",
         "Precio": "22000"
+    },
+    {
+        "id": "21",
+        "Categoria": "Combos",
+        "Tipo": null,
+        "Producto": "Combo Sushi #1 - 25 Bocados Tradicionales",
+        "Descripcion": null,
+        "Opciones": "null",
+        "Precio": "35000"
+    },
+    {
+        "id": "22",
+        "Categoria": "Combos",
+        "Tipo": null,
+        "Producto": "Combo Sushi #1 - 35 Bocados Tradicionales",
+        "Descripcion": null,
+        "Opciones": "null",
+        "Precio": "45000"
+    },
+    {
+        "id": "23",
+        "Categoria": "Combos",
+        "Tipo": null,
+        "Producto": "Combo Sushi #1 - 45 Bocados Tradicionales",
+        "Descripcion": null,
+        "Opciones": "null",
+        "Precio": "55000"
+    },
+    {
+        "id": "24",
+        "Categoria": "Combos",
+        "Tipo": null,
+        "Producto": "Yaki Combo Infantil - Trocitos de pollo apanados con papas rizadas y jugo hit en caja",
+        "Descripcion": null,
+        "Opciones": "null",
+        "Precio": "10000"
+    },
+    
+    {
+        "id": "25",
+        "Categoria": "Adiciones",
+        "Tipo": null,
+        "Producto": "Adicion de huevo",
+        "Opciones": "null",
+        "Precio": "1000"
+    },
+    {
+        "id": "26",
+        "Categoria": "Adiciones",
+        "Tipo": null,
+        "Producto": "Adicion de verdura Yakimeshi",
+        "Opciones": "null",
+        "Precio": "4000"
+    },
+    {
+        "id": "27",
+        "Categoria": "Adiciones",
+        "Tipo": null,
+        "Producto": "Adicion de verdura Yakisoba",
+        "Opciones": "null",
+        "Precio": "9000"
+    },
+    {
+        "id": "28",
+        "Categoria": "Adiciones",
+        "Tipo": null,
+        "Producto": "Adicion carne o pollo",
+        "Opciones": "null",
+        "Precio": "4000"
+    },
+    {
+        "id": "29",
+        "Categoria": "Adiciones",
+        "Tipo": null,
+        "Producto": "Adicion Camarón",
+        "Opciones": "null",
+        "Precio": "5000"
+    },
+    {
+        "id": "30",
+        "Categoria": "Acompañamientos",
+        "Producto": "Papas en casco",
+        "Precio": "4000"
+    },
+    {
+        "id": "31",
+        "Categoria": "Acompañamientos",
+        "Producto": "Papas Rizadas",
+        "Precio": "4000"
+    },
+    {
+        "id": "32",
+        "Categoria": "Acompañamientos",
+        "Producto": "Pop Camarón",
+        "Precio": "15000"
+    },
+    {
+        "id": "33",
+        "Categoria": "Postres",
+        "Producto": "Helado Frito",
+        "Precio": "8000"
+    },
+    {
+        "id": "34",
+        "Categoria": "Postres",
+        "Producto": "Oreo Tempura",
+        "Precio": "6000"
+    },
+    {
+        "id": "35",
+        "Categoria": "Bebidas",
+        "Producto": "Jugos Naturales (Mora, Mango, Maracuya)",
+        "Precio": "Agua: 4000, Leche: 4.500"
+    },
+    {
+        "id": "36",
+        "Categoria": "Bebidas",
+        "Producto": "Limonadas",
+        "Precio": "Natural: 4000, Yerbabuena: 4.500"
+    },
+    {
+        "id": "37",
+        "Categoria": "Bebidas",
+        "Producto": "Te Hatsu 250ml",
+        "Precio": "4000"
+    },
+    {
+        "id": "38",
+        "Categoria": "Bebidas",
+        "Producto": "Club Dorada",
+        "Precio": "4000"
+    },
+    {
+        "id": "39",
+        "Categoria": "Bebidas",
+        "Producto": "Cerveza Asahi Japonesa",
+        "Precio": "6000"
+    },
+    {
+        "id": "40",
+        "Categoria": "Bebidas",
+        "Producto": "Gaseosa Postobon o Coca Cola 400ml",
+        "Precio": "2500"
+    },
+    {
+        "id": "41",
+        "Categoria": "Bebidas",
+        "Producto": "Gaseosa Postobon o Coca Cola 400ml",
+        "Precio": "2500"
+    },
+    {
+        "id": "41",
+        "Categoria": "Bebidas",
+        "Producto": "Gaseosa Postobon o Coca Cola 1.5",
+        "Precio": "4500"
+    },
+    {
+        "id": "42",
+        "Categoria": "Ramen",
+        "Producto": "Ramen Soyu - Sopa de fideos japonesa",
+        "Tipo": null,
+        "Descripcion": "fideos de trigo, huevo cocido, wakame, soya y proteína verdura salteada.",
+        "Personal": [
+            {"Proteina": "Pollo", "Precio": "$ 18.000"},
+            {"Proteina": "Cerdo", "Precio": "$ 20.000"},
+            {"Proteina": "Mixto (Cerdo y Salmón)", "Precio": "$ 22.000"}
+        ],
+        "Precio": null
     }
 ]
