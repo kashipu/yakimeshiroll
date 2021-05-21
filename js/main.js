@@ -16,8 +16,8 @@ fetch("../js/entradas.json")
                 entradas.innerHTML += `
                 <div class="card-item">
                     <h3>${data[i].Producto}</h3>
-                    <p>${data[i].Descripcion}</p>
-                    <p>${data[i].Precio}</p>
+                    <p class="item-description">${data[i].Descripcion}</p>
+                    <p class="item-price">${data[i].Precio}</p>
                 </div>
                 `
                 break

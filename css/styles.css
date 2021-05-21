@@ -1,14 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('/images/fondo.jpg');
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo-image {
+    width: 70%;
+    max-width: 25rem;
 }
 
 .container-items {
-    border: 1px solid purple;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: .8rem;
 }
 
-.entradas {
+.entradas h2 {
+    padding: 0;
+}
+
+.title-box {
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.card-item {
+    border: 1px solid red;
+    margin: 1.5rem .5rem;
+}
+
+.card-item {}
+
+.card-item h3 {
     border: 1px solid red;
 }
+
 .fuertes {
     border: 1px solid green;
 }
