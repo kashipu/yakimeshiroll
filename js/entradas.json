@@ -110,15 +110,6 @@
         "Precio": "18000"
     },
     {
-        "id": "11",
-        "Categoria": "Sushi",
-        "Tipo": "Tradicional",
-        "Producto": "Ebi tempura",
-        "Descripcion": "Langostino apanado, mayonesa japonesa y aguacate. con topping de mayonesa japonesa",
-        "Opciones": "null",
-        "Precio": "18000"
-    },
-    {
         "id": "12",
         "Categoria": "Sushi",
         "Tipo": "Tradicional",
@@ -144,6 +135,15 @@
         "Descripcion": "Salmón apanado, queso crema y aguacate. cubierto de plátano maduro, queso doble crema con topping de salsa de anguila y maracuyá.",
         "Opciones": "null",
         "Precio": "18000"
+    },
+    {
+        "id": "11",
+        "Categoria": "Sushi",
+        "Tipo": "Tradicional",
+        "Producto": "Philadelphia Apanado",
+        "Descripcion": "Salmón, queso crema y aguacate cubierto por semillas de ajonjolí.",
+        "Opciones": "null",
+        "Precio": "22000"
     },
     {
         "id": "15",
@@ -266,7 +266,7 @@
         "Tipo": null,
         "Producto": "Adicion carne o pollo",
         "Opciones": "null",
-        "Precio": "4000"
+        "Precio": "5000"
     },
     {
         "id": "29",
@@ -274,7 +274,7 @@
         "Tipo": null,
         "Producto": "Adicion Camarón",
         "Opciones": "null",
-        "Precio": "5000"
+        "Precio": "6000"
     },
     {
         "id": "30",
