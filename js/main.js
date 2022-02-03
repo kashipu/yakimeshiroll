@@ -130,12 +130,12 @@ fetch("../js/entradas.json")
                 if(i = 42) {
                     ramen.innerHTML += `
                     <div class="card-item">
-                        <h3 class="item-title">${data[42].Producto}</h3>
-                        <p class="item-description">${data[42].Descripcion}</p>
+                        <h3 class="item-title">${data[41].Producto}</h3>
+                        <p class="item-description">${data[41].Descripcion}</p>
                     </div>    
                     `}
                     for (let j = 0; j < data.length; j++) {
-                        const personal = data[42].Personal[j];
+                        const personal = data[41].Personal[j];
                         ramenPrecios.innerHTML += `
                         <tr>
                             <th>${personal.Proteina}</th>
