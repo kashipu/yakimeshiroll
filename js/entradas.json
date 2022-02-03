@@ -4,7 +4,7 @@
         "Producto": "Spring Roll x2 ",
         "Tipo": null,
         "Descripcion": "Rollitos fritos rellenos de vegetales con carne o pollo",
-        "Precio": "7000"
+        "Precio": "8000"
     },
     {
         "id": "2",
@@ -13,7 +13,7 @@
         "Tipo": null,
         "Descripcion": "Laminas de pescado blanco con especies bañado en limon",
         "Opciones": null,
-        "Precio": "12000"
+        "Precio": "13000"
     },
     {
         "id": "3",
@@ -22,7 +22,7 @@
         "Tipo": null,
         "Descripcion": "Pescado de temporada leche de tigre y maiz cuzco",
         "Opciones":null,
-        "Precio": "15000"
+        "Precio": "16000"
     },
     {
         "id": "4",
@@ -31,16 +31,16 @@
         "Tipo": null,
         "Descripcion": "Arroz japonés hecho con la técnica teppanyaki con raíz, zanahoria, arveja, cebollín, huevo, ajonjolí, salsa soya y teriyaki artesanal con la proteína que escojas.",
         "Personal": [
-            {"Proteina": "Pollo", "Precio": "$ 12.000"},
-            {"Proteina": "Carne", "Precio": "$ 13.000"},
-            {"Proteina": "Camarón", "Precio": "$ 15.000"},
-            {"Proteina": "Mixto", "Precio": "$ 16.000"}
+            {"Proteina": "Pollo", "Precio": "$ 13.000"},
+            {"Proteina": "Carne", "Precio": "$ 14.000"},
+            {"Proteina": "Camarón", "Precio": "$ 16.000"},
+            {"Proteina": "Mixto", "Precio": "$ 17.000"}
         ],
         "Familiar":[
-            {"Proteina": "Pollo", "Precio": "$ 23.000"},
-            {"Proteina": "Carne", "Precio": "$ 24.000"},
-            {"Proteina": "Camarón", "Precio": "$ 26.000"},
-            {"Proteina": "Mixto", "Precio": "$ 27.000"}
+            {"Proteina": "Pollo", "Precio": "$ 24.000"},
+            {"Proteina": "Carne", "Precio": "$ 25.000"},
+            {"Proteina": "Camarón", "Precio": "$ 27.000"},
+            {"Proteina": "Mixto", "Precio": "$ 28.000"}
         ],
         "Precio": null
     },
@@ -51,16 +51,16 @@
         "Tipo": null,
         "Descripcion": "Zukini verde y amarillo, raíz, zanahoria, cebolla roja, repollo, pasta de arroz, salsa soya y tonkatsu artesanal con la proteína a elección.",
         "Personal": [
-            {"Proteina": "Pollo", "Precio": "$ 11.000"},
-            {"Proteina": "Carne", "Precio": "$ 12.000"},
-            {"Proteina": "Camarón", "Precio": "$ 14.000"},
-            {"Proteina": "Mixto", "Precio": "$ 15.000"}
+            {"Proteina": "Pollo", "Precio": "$ 12.000"},
+            {"Proteina": "Carne", "Precio": "$ 13.000"},
+            {"Proteina": "Camarón", "Precio": "$ 16.000"},
+            {"Proteina": "Mixto", "Precio": "$ 16.000"}
         ],
         "Familiar":[
-            {"Proteina": "Pollo", "Precio": "$ 21.000"},
-            {"Proteina": "Carne", "Precio": "$ 22.000"},
-            {"Proteina": "Camarón", "Precio": "$ 24.000"},
-            {"Proteina": "Mixto", "Precio": "$ 25.000"}
+            {"Proteina": "Pollo", "Precio": "$ 22.000"},
+            {"Proteina": "Carne", "Precio": "$ 23.000"},
+            {"Proteina": "Camarón", "Precio": "$ 25.000"},
+            {"Proteina": "Mixto", "Precio": "$ 26.000"}
         ],
         "Precio": null
     },
@@ -240,41 +240,41 @@
         "id": "25",
         "Categoria": "Adiciones",
         "Tipo": null,
-        "Producto": "Adicion de huevo",
+        "Producto": "Adición de huevo",
         "Opciones": "null",
-        "Precio": "1000"
+        "Precio": "2000"
     },
     {
         "id": "26",
         "Categoria": "Adiciones",
         "Tipo": null,
-        "Producto": "Adicion de verdura Yakimeshi",
+        "Producto": "Adición de verdura Yakimeshi",
         "Opciones": "null",
-        "Precio": "4000"
+        "Precio": "5000"
     },
     {
         "id": "27",
         "Categoria": "Adiciones",
         "Tipo": null,
-        "Producto": "Adicion de verdura Yakisoba",
+        "Producto": "Adición de verdura Yakisoba",
         "Opciones": "null",
-        "Precio": "9000"
+        "Precio": "10000"
     },
     {
         "id": "28",
         "Categoria": "Adiciones",
         "Tipo": null,
-        "Producto": "Adicion carne o pollo",
+        "Producto": "Adición carne o pollo",
         "Opciones": "null",
-        "Precio": "5000"
+        "Precio": "6000"
     },
     {
         "id": "29",
         "Categoria": "Adiciones",
         "Tipo": null,
-        "Producto": "Adicion Camarón",
+        "Producto": "Adición Camarón",
         "Opciones": "null",
-        "Precio": "6000"
+        "Precio": "7000"
     },
     {
         "id": "30",
@@ -333,20 +333,14 @@
     {
         "id": "39",
         "Categoria": "Bebidas",
-        "Producto": "Cerveza Asahi Japonesa",
+        "Producto": "Corona, Stella Artois (330ml)",
         "Precio": "6000"
     },
     {
         "id": "40",
         "Categoria": "Bebidas",
         "Producto": "Gaseosa Postobon o Coca Cola 400ml",
-        "Precio": "2500"
-    },
-    {
-        "id": "41",
-        "Categoria": "Bebidas",
-        "Producto": "Gaseosa Postobon o Coca Cola 400ml",
-        "Precio": "2500"
+        "Precio": "3000"
     },
     {
         "id": "41",
